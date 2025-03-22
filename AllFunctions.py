@@ -1,12 +1,9 @@
 class AllFunctions():
     def Subfields():
         print("Sub-fields in AI are: ")
-        print("Machine Learning")
-        print("Neural Networks")
-        print("Vision")
-        print("Robotics")
-        print("Speech Processing")
-        print("Natural Language Processing")
+        list1=['Machine Learning','Neural Networks','Vision,Robotics','Speech Processing','Natural Language Processing']
+        for i in list1:
+            print(i)
 
     def OddEven():
         num=int(input("Enter The Number: "))
